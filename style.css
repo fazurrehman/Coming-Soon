@@ -1,0 +1,66 @@
+/*=====================================
+=            Faizur Rehman            =
+=====================================*/
+
+/*==========  body  ==========*/
+html, 
+body{
+	margin: 0;
+	padding: 0;
+	background: url(img/bg.jpg) center center no-repeat fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	height: 100%;
+}
+
+/* container */
+.container{
+	width: 84%;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.links{
+	margin: 20px auto;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.links a{
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0 20px;
+	border-radius: 2px;
+	font-family:'Raleway',sans-serif;
+	transition: .5s all ease-in-out;
+	-webkit-transition: .5s all ease-in-out;
+}
+
+.links a:hover{
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+
+@media handheld, only screen and (max-width: 768px){
+	img{
+		width: 100%;
+	}
+}
+
+@media handheld, only screen and (max-width: 480px){
+	.links a{
+		display: block;
+	}
+
+	.container{
+		padding: 50px 0;
+	}
+}

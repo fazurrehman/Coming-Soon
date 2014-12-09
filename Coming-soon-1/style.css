@@ -1,0 +1,149 @@
+/*=====================================
+=            Faizur Rehman            =
+=====================================*/
+
+/*==========  body  ==========*/
+html, 
+body{
+	margin: 0;
+	padding: 0;
+	background: url(img/bg.jpg) center center no-repeat fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	height: 100%;
+
+}
+
+/* Main Div*/
+.myname{
+	width: 345px;
+	position: absolute;
+	top: 35%;
+	left: 37.5%;
+	text-align: center;
+}
+
+.myname h1{
+	font:60px/1.5 'Poiret One', cursive; 
+	margin: 0;
+	padding: 0;
+}
+
+/* inner heading */
+.inner-heading{
+	font-family:'Raleway',sans-serif;
+	width: 56%;
+	float: right;
+	text-align: center;
+	background: url(img/border.png) no-repeat top 10px right;
+	font-size: 18px;
+	height: 40px;
+	padding: 18px 0 0 0;
+}
+
+/* soical icon*/
+
+.social-icons{
+	float: right;
+
+}
+
+.social-icons .icon-sprite{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(img/spirit-icon.png) left top no-repeat;
+	margin: 5px 7px;
+	text-align: center;
+	-webkit-transition:.1s transform ease-in-out;
+	transition:.1s transform ease-in-out;
+}
+
+
+/* spirit icons*/
+.social-icons .icon-sprite.sprite-fb{
+	background-position: left top;
+}
+
+.social-icons .icon-sprite.sprite-gp{
+	background-position: -16px 0;
+}
+
+.social-icons .icon-sprite.sprite-dri{
+	background-position: -32px 0;
+}
+
+.social-icons .icon-sprite.sprite-ins{
+	background-position: -48px 0;
+
+}
+
+.social-icons .icon-sprite.sprite-del{
+	background-position: -64px 0;
+	margin-right: 20px;
+}
+
+.social-icons .icon-sprite.sprite-fb:hover,
+.social-icons .icon-sprite.sprite-gp:hover,
+.social-icons .icon-sprite.sprite-dri:hover,
+.social-icons .icon-sprite.sprite-ins:hover,
+.social-icons .icon-sprite.sprite-del:hover{
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+
+
+/* Responsive*/
+
+@media only screen and (max-width: 1024px){
+	.myname{
+		top: 35%;
+		left: 27.5%;
+	}
+}
+
+@media handheld, only screen and (max-width: 768px){
+	.myname{
+		top: 35%;
+		left: 20%;
+		text-align: center;
+	}
+}
+
+@media handheld, only screen and (max-width: 480px){
+	.myname{
+		width: 360px;
+		top: 25%;
+		left: 2%;
+	}
+
+	.myname h1{
+		font:48px/1 'Poiret One', cursive; 
+	}
+
+	.inner-heading{
+		text-align: center;
+		background: url(img/border.png) no-repeat top 10px center;
+		font-size: 18px;
+		height: 40px;
+		padding: 18px 0 0 0;
+		width: 100%;
+		float: none;
+	}
+
+	.social-icons{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+@media handheld, only screen and (max-width: 320px){
+	.myname{
+		overflow-Y: hidden;
+		width: 200px;
+		top: 25%;
+		left: 20%;
+	}
+
+}
