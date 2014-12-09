@@ -12,9 +12,9 @@ Google Fonts:
 </ul>
 
 
-![Snapshot](https://rawgit.com/fazurrehman/My-Portfolio/master/img/snapshot.jpg "My Portfolio landing page Preview")
+![Snapshot](https://rawgit.com/fazurrehman/Coming-Soon/master/img/demo.png "My Portfolio landing page Preview")
 
-[See Demo](https://rawgit.com/fazurrehman/My-Portfolio/master/index.html)
+[See Demo](https://rawgit.com/fazurrehman/Coming-Soon/master/index.html)
 
 
 Designed and Developed by : Faizur Rehman 
